@@ -11,6 +11,7 @@
 		E09048FC2B58A3DB00F9E151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09048FB2B58A3DB00F9E151 /* ContentView.swift */; };
 		E09048FE2B58A3DD00F9E151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09048FD2B58A3DD00F9E151 /* Assets.xcassets */; };
 		E09049012B58A3DD00F9E151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09049002B58A3DD00F9E151 /* Preview Assets.xcassets */; };
+		E09049082B58A40300F9E151 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09049072B58A40300F9E151 /* WelcomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E09048FB2B58A3DB00F9E151 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E09048FD2B58A3DD00F9E151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E09049002B58A3DD00F9E151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E09049072B58A40300F9E151 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E09048F92B58A3DB00F9E151 /* OnboardingFlowApp.swift */,
 				E09048FB2B58A3DB00F9E151 /* ContentView.swift */,
+				E09049072B58A40300F9E151 /* WelcomePage.swift */,
 				E09048FD2B58A3DD00F9E151 /* Assets.xcassets */,
 				E09048FF2B58A3DD00F9E151 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09049082B58A40300F9E151 /* WelcomePage.swift in Sources */,
 				E09048FC2B58A3DB00F9E151 /* ContentView.swift in Sources */,
 				E09048FA2B58A3DB00F9E151 /* OnboardingFlowApp.swift in Sources */,
 			);
