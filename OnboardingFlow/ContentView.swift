@@ -17,6 +17,8 @@ struct ContentView: View {
             FeaturesPage()
             
         }
+        .tabViewStyle(.page)
+        
     }
 }
 
