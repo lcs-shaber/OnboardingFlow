@@ -12,6 +12,8 @@
 		E09048FE2B58A3DD00F9E151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09048FD2B58A3DD00F9E151 /* Assets.xcassets */; };
 		E09049012B58A3DD00F9E151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09049002B58A3DD00F9E151 /* Preview Assets.xcassets */; };
 		E09049082B58A40300F9E151 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09049072B58A40300F9E151 /* WelcomePage.swift */; };
+		E090490A2B58A7CE00F9E151 /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09049092B58A7CE00F9E151 /* FeaturesPage.swift */; };
+		E090490C2B58A80A00F9E151 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E090490B2B58A80A00F9E151 /* FeatureCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		E09048FD2B58A3DD00F9E151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E09049002B58A3DD00F9E151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E09049072B58A40300F9E151 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		E09049092B58A7CE00F9E151 /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
+		E090490B2B58A80A00F9E151 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				E09048F92B58A3DB00F9E151 /* OnboardingFlowApp.swift */,
 				E09048FB2B58A3DB00F9E151 /* ContentView.swift */,
 				E09049072B58A40300F9E151 /* WelcomePage.swift */,
+				E09049092B58A7CE00F9E151 /* FeaturesPage.swift */,
+				E090490B2B58A80A00F9E151 /* FeatureCard.swift */,
 				E09048FD2B58A3DD00F9E151 /* Assets.xcassets */,
 				E09048FF2B58A3DD00F9E151 /* Preview Content */,
 			);
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E09049082B58A40300F9E151 /* WelcomePage.swift in Sources */,
+				E090490A2B58A7CE00F9E151 /* FeaturesPage.swift in Sources */,
 				E09048FC2B58A3DB00F9E151 /* ContentView.swift in Sources */,
 				E09048FA2B58A3DB00F9E151 /* OnboardingFlowApp.swift in Sources */,
+				E090490C2B58A80A00F9E151 /* FeatureCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
